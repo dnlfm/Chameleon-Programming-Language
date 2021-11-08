@@ -1,0 +1,26 @@
+begin
+    integer idade
+    real salario
+    word resposta
+
+    idade = 12
+    // listen idade \\    
+    if idade < 18:
+        salario = 0
+        resposta = "Voce nao pode beber!"
+    endif
+    idade = idade + 8
+    salario = salario + 85291
+    if idade < 12:
+        integer k
+        k = 92
+        resposta = "Voce e de menor"
+    elif idade > 60:
+        //real PI
+        PI = 3.141509\\
+
+        resposta = "Voce e de idade"
+    endelif
+    idade = idade + 8
+    salario = salario + 85291
+end

@@ -1,0 +1,10 @@
+begin
+    integer i
+    for i=0, i<50, i=i+1:
+        say "Batata"
+    endfor
+    real a
+    a = 5 + (2+3) + 0
+    real b
+    b = 5 + ((2+3)+4+(7+(4+3)))
+end

@@ -1,0 +1,11 @@
+*.out
+*.gch
+*.yy.c
+*.output
+*.tab.*
+arq_three_address_code_generated
+cod.asm
+cod.ll
+cod.bc
+cod.native
+cod.s

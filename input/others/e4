@@ -1,0 +1,13 @@
+begin
+    word palavra
+    task funcao (8, 4)    
+end
+
+task funcao a, b, c, d, e, f:
+    a = 5+3
+endtask
+
+begin
+    integer i
+    real a
+end

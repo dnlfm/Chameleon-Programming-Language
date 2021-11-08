@@ -1,0 +1,6 @@
+begin
+    word nome
+    nome = "Tulipa " ++ "Colorida"
+    say nome
+    say "Batatinha"
+end

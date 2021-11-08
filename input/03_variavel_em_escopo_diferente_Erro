@@ -1,0 +1,9 @@
+ begin
+    real juros
+    real valor
+    valor = 3.50 
+    juros = 1.5 
+    begin 
+        total = valor * juros 
+    end 
+end

@@ -1,0 +1,8 @@
+begin
+    word nome
+    integer idade
+    nome = "Junior" 
+    idade = 10
+    idade = "horizonte" 
+end
+

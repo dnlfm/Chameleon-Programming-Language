@@ -1,0 +1,8 @@
+begin
+    integer a
+    integer b
+    integer c
+    integer d
+    a = 8
+    b = c = d = 3 * 93
+end

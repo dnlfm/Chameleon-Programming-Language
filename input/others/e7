@@ -1,0 +1,4 @@
+begin
+    integer a
+    a = 3+5*8+7
+end

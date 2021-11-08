@@ -1,0 +1,32 @@
+begin
+    real numeroreal
+    integer numerointeiro
+    word string
+    string = "nome"
+    begin
+        numeroreal = 123.545
+        numerointeiro = 0
+        word stringdois
+        stringdois= " sobrenome"
+        begin 
+            word concatenacao
+            concatenacao = "Carlinhos " ++ "Silva" 
+            say string 
+            say stringdois
+        end
+    end
+    integer flagjump
+    flagjump = 1 
+    if flagjump == 1:
+        jumpto aqui 
+    endif
+    integer passouAqui
+    passouAqui = 0
+    aqui: 
+    while numerointeiro < 5:
+        numerointeiro = numerointeiro + 1
+    endwhile
+end
+
+
+

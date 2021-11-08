@@ -1,0 +1,13 @@
+begin
+    integer a
+    integer b
+    integer c 
+      
+    k = 5
+    word k
+    k = "Sou uma String"     
+    b = 20
+    c = 15    
+    a = 5 + (b + c * 7 + 2)
+    
+end

@@ -1,0 +1,15 @@
+begin
+
+    word nome
+    integer idade
+    real salario
+
+    //word salario\\
+
+    listen nome
+    listen idade
+    listen salario
+
+    say "Obrigado pelas informacoes!"
+
+end

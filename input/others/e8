@@ -1,0 +1,4 @@
+begin
+    integer a
+    a = 5 + (5 + 8 * 7 + 2)
+end

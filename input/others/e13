@@ -1,0 +1,10 @@
+begin
+    integer a
+    integer b
+    a = 5
+    b = a + 3
+    begin
+        real c
+        c = b / a
+    end
+end

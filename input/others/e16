@@ -1,0 +1,15 @@
+begin
+    integer idade
+    integer id
+    id = 5894
+    idade = 8    
+
+    begin
+        integer idade
+        integer id_mais_um
+        idade = 182
+        id_mais_um = id + 1
+    end
+
+
+end

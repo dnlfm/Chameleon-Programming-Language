@@ -1,0 +1,36 @@
+#MACROS
+    farewell : return
+    task : function
+    stop : break
+    jumpto : goto
+    say : print
+    listen : input
+    elif : else
+    real : double
+    word : str
+    integer : int
+    vector : array
+    squad : class
+    ^ : **
+    ! : not
+	 block : C
+#ENDMACROS
+#COD
+// imprime se os numeros sao pares ou impares, de 1 a 50 \\
+int N
+N = 50
+
+function verificarParidade numero{
+    if (numero%2 == 0){
+        print numero + " eh par"
+    }else {
+        print numero + " eh impar"
+	 }
+}
+
+while N <= 50{
+    function verificarParidade(N)
+
+    N = N + 1 
+}	 
+#ENDCOD

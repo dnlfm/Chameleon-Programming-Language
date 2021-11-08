@@ -1,0 +1,14 @@
+begin
+    integer num_1
+    integer num_2
+    integer resposta
+    num_1 = 8
+    num_2 = num_1 - 5 * 3
+    num_2 = 7
+    //num_1 = 8
+    num_1 = num_1 + 9\\
+
+    
+    resposta = (num_1 + num_1 * num_2 + num_2 * 5 * 4 * 3 - 5 * 3) / 67
+    
+end

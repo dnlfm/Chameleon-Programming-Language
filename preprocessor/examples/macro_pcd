@@ -1,0 +1,76 @@
+#MACROS
+	farewell : retorna
+	task : funcao
+	stop : pare
+	jumpto : vaipara
+	say : fala
+	listen : escuta
+	if : se
+	elif : senao
+	real : real
+	word : texto
+	integer : inteiro
+	vector : vetor
+	squad : esquadrao
+	+ : mais
+	- : menos
+	* : multiplica
+	/ : divide
+	% : modulo
+	= : recebe
+	== : igual
+	^ : elevadoa
+	! : fatorial
+	!= : diferente
+	>= : maiorouigual
+	<= : menorouigual
+	> : maior
+	< : menor
+	and  : E
+	or :  OU
+	, : virgula
+	. : .
+	for : para
+	while : enquanto
+	// : iniciacomentario
+    \\ : terminacomentario        
+	def : 1 : Verdadeiro
+	def : 0 : Falso
+	block : C
+#ENDMACROS
+#COD
+iniciacomentario Codificacao para ajudar algumas classes de PCD/iniciantes terminacomentario
+funcao p{
+	retorna 0
+}
+squad pessoa { 
+	texto nome
+	inteiro idade
+}
+inteiro num
+num recebe Falso
+inteiro valor
+valor recebe 5
+vetor vet 5
+texto txt 
+txt recebe "aprendendo a programar"
+
+se valor menor 3{
+	num recebe True
+}senao valor menor 2 e valor diferente 0{
+	num recebe 5 divide 2fatorial
+}
+
+enquanto valor maiorouigual 0{
+	valor recebe valor menos 1
+	se valor menor 2{
+		pare
+	}
+}
+
+for valor recebe 0, valor maior 5, valor recebe valor mais 1{
+	num recebe num elevadoa 2
+	vet[4] recebe 5 multiplica 3 modulo dois
+}
+funcao valor
+#ENDCOD

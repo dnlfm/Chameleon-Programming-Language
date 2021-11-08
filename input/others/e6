@@ -1,0 +1,37 @@
+begin
+    integer int_de_b1
+
+    begin
+        integer int_de_b1_b1
+    end
+
+    begin
+        integer int_de_b1_b2
+        real k
+        word w
+
+        begin
+            integer int_de_b1_b2_b3
+            word palavra
+
+            begin
+                integer int_de_b1_b2_b3_b4
+                vector v 5
+            end
+        end
+
+        begin
+            integer int_de_b1_b5
+        end
+    end
+
+end
+
+begin
+    integer int_de_b2
+
+    begin
+        integer int_de_b2_b1
+    end
+
+end
