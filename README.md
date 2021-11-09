@@ -30,7 +30,7 @@ Chameleon uses the structured programming paradigm and is inspired by the C, C++
 
 **Limitations:**
 - The current version only supports, for the execution on the machine, codes written in Chameleon that performs only mathematic operations. However, this limitation can be removed in future versions, since the code generates intermediate code for most of the features that it provides.
-- Chameleon offers a preprocessor that works similar to using MACROS in C. You can customize keywords and "create" your own language. However, you can't create custom commands with the current feature like we can do in C. its use is optional.
+- Chameleon offers a preprocessor that works similar to using MACROS in C. You can customize keywords and "create" your own language. However, you can't create custom commands with the current feature like we can do in C. Its use is optional.
 
 # Executing
 
@@ -49,4 +49,4 @@ Executing **make run_native**:
 
 ![Machine execution result](misc/machine_execution_result.png "Machine execution result")
 
-Copyright © 2021 Daniel Freitas Martins (dnlfm), Maria Dalila Vieira (dalilavieira), Naira Cristiane dos Reis Diniz (????) and João Arthur Gonçalves do Vale (????)
+Copyright © 2021 Daniel Freitas Martins (dnlfm), Maria Dalila Vieira (dalilavieira), Naira Cristiane dos Reis Diniz (NaiaraDiniz) and João Arthur Gonçalves do Vale (joaoarthurv)
