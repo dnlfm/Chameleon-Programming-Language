@@ -2,7 +2,7 @@
 
 ![Chameleon logo](misc/Chameleon_logo.png "Chameleon logo")
 
-Chameleon is a programming language that is easy and flexible to use. It was developed in 2020 in a college assignment of the subject Compilers. In this project were used C, Flex and YACC for its development. The description (portuguese only) of this assignment can be found [here](Description-Compilers-2020.pdf). This assignment was divided in three parts:
+Chameleon is a programming language that is easy and flexible to use. It was developed in 2020 in a college assignment of the subject Compilers. In this project were used C, Flex and YACC/Bison for its development. The description (portuguese only) of this assignment can be found [here](Description-Compilers-2020.pdf). This assignment was divided in three parts:
 
 (1) Programming language definition with your characteristics, features, grammars, keywords, etc. and a standalone version of its Lexical Analyzer;
 
@@ -29,14 +29,14 @@ Chameleon uses the structured programming paradigm and is inspired by the C, C++
     - sudo apt install llvm
 
 **Limitations:**
-- The current version only supports, for the execution on the machine, codes written in Chameleon that performs only mathematic operations. However, this limitation can be removed in future versions, since the code generates intermediate code for most of the features that it provides.
+- For the current version, the machine code generation is limited to codes written in Chameleon that performs only mathematic operations. However, this limitation can be removed in future versions, since the compiler generates intermediate code for most of the features that it provides.
 - Chameleon offers a preprocessor that works similar to using MACROS in C. You can customize keywords and "create" your own language. However, you can't create custom commands with the current feature like we can do in C. Its use is optional.
 
 # Executing
 
 Refering to the [Makefile](Makefile), you can execute the following commands:
 - **To generate the compiler:** make 
-- **To execute the compiler for a Chameleon code:** make run < here_is_a_file_path
+- **To execute the compiler for a Chameleon code:** make run < here_is_an_input_file_path
 - **To execute LLVM and generate machine code:** make llvm
 - **To execute machine code:** make run_native
     - **ps:** only mathematic calculations works in this version and the last result is printed.
