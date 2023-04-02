@@ -24,9 +24,12 @@ run:
 run_native:
 	./cod.native
 
+reset_docker:
+	docker stop $(DOCKER_CONTAINER_NAME) && docker rm $(DOCKER_CONTAINER_NAME) && docker rmi $(DOCKER_IMAGE_NAME)
+
 run_docker:
 	echo "Deleting container and image"
-	-docker stop $(DOCKER_CONTAINER_NAME) && docker rm $(DOCKER_CONTAINER_NAME) && docker rmi $(DOCKER_IMAGE_NAME)
+	-make reset_docker
 	wait
 
 	echo "Building image: $(DOCKER_IMAGE_NAME)"
