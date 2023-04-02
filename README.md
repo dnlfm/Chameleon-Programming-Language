@@ -20,7 +20,9 @@ Chameleon uses the structured programming paradigm and is inspired by the C, C++
 
 **Using Docker**
 
-PS: If you have [Docker](https://docs.docker.com/get-docker/), there is no need to install the dependencies below - refer to [Dockerfile](Dockerfile). You can use `make run_docker` to build the image and run a docker container, and use `make enter_docker_container` to enter the Linux shell and follow the instructions in [Executing](#executing) session.
+PS: If you have [Docker](https://docs.docker.com/get-docker/), there is no need to install the dependencies below. You can use `make run_docker` to build the image and run a docker container, and use `make enter_docker_container` to enter the Linux shell and follow the instructions in [Executing](#executing) session.
+
+Related files: [Dockerfile](Dockerfile) and [Makefile](Makefile).
 
 **Requirements (no need to install them if you have Docker):**
 - Flex - Fast Lexical Analyzer Generator (tested / recommended version: 2.6.4)

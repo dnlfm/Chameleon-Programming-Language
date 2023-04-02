@@ -1,16 +1,4 @@
-# docker build -t chameleon-v1 .
-# docker run --name container-chameleon-v1 -d -i -t chameleon-v1 /bin/sh
-# docker exec -it container-chameleon-v1 sh
-# bazel build ... --sandbox_debug --verbose_failures
-
-# docker stop container-chameleon-v1 && docker rm container-chameleon-v1 && docker rmi chameleon-v1
-
-# docker system df
-# docker ps -f "status=exited"
-# docker images
-
-# docker builder prune
-
+# Execute the following command to build this image and run inside a container: make run_docker
 # for Mac M1 Pro, need --platform=linux/amd64
 FROM --platform=linux/amd64 ubuntu:20.04
 
