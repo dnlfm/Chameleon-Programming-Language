@@ -1,4 +1,6 @@
 BIN = a.out
+DOCKER_IMAGE_NAME = chameleon-v1
+DOCKER_CONTAINER_NAME = container-$(DOCKER_IMAGE_NAME)
 
 all: compile
 
@@ -21,3 +23,19 @@ run:
 
 run_native:
 	./cod.native
+
+run_docker:
+	echo "Deleting container and image"
+	-docker stop $(DOCKER_CONTAINER_NAME) && docker rm $(DOCKER_CONTAINER_NAME) && docker rmi $(DOCKER_IMAGE_NAME)
+	wait
+
+	echo "Building image: $(DOCKER_IMAGE_NAME)"
+	docker build -t $(DOCKER_IMAGE_NAME) .
+
+	echo "Starting container: $(DOCKER_CONTAINER_NAME)"
+	docker run --name $(DOCKER_CONTAINER_NAME) -d -i -t $(DOCKER_IMAGE_NAME) /bin/sh
+
+	echo "Container '$(DOCKER_CONTAINER_NAME)' started"
+
+enter_docker_container:
+	docker exec -it $(DOCKER_CONTAINER_NAME) sh

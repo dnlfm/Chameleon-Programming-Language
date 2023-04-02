@@ -18,7 +18,11 @@ Chameleon uses the structured programming paradigm and is inspired by the C, C++
 
 (3) [Documentation - Part 3 - Semantic Analyzer, intermediate code generator and the machine code generator](doc_3_daniel_joao_maria_naiara.pdf)
 
-**Requirements:**
+**Using Docker**
+
+PS: If you have [Docker](https://docs.docker.com/get-docker/), there is no need to install the dependencies below - refer to [Dockerfile](Dockerfile). You can use `make run_docker` to build the image and run a docker container, and use `make enter_docker_container` to enter the Linux shell and follow the instructions in [Executing](#executing) session.
+
+**Requirements (no need to install them if you have Docker):**
 - Flex - Fast Lexical Analyzer Generator (tested / recommended version: 2.6.4)
     - sudo apt-get install flex
 - YACC - Yet Another Compiler-Compiler (tested / recommended versions: 3.5.1 (bison), 1.9 20140715 (byacc))
